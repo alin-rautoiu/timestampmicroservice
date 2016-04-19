@@ -1,1 +1,1 @@
-web: nodejs program.js
+web: node program.js
