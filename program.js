@@ -23,8 +23,8 @@ app.get('/*', function (req, res) {
           output.natural = momentDate.format('MMMM DD, YYYY');
           output.unix = momentDate.unix();
       }
-      res.send(output);
   }
+    res.send(output);
 });
 
 app.listen(process.env.PORT || 3002);
