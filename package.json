@@ -4,7 +4,9 @@
   "description": "",
   "main": "program.js",
   "dependencies": {
-    "express": "~4.13.4"
+    "chrono-node": "^1.2.1",
+    "express": "~4.13.4",
+    "moment": "^2.13.0"
   },
   "devDependencies": {},
   "scripts": {
